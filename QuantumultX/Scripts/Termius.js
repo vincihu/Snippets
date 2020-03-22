@@ -1,4 +1,4 @@
-//https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Terminus.js
+//https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js
 //api.termius.com
 let obj=JSON.parse($response.body)
 obj.account["pro_mode"] = true;
